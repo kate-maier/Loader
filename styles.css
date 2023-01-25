@@ -1,15 +1,15 @@
 .box {
     padding-top: 100px;
-    width: 200px;
-    height: 200px;
+    width: 300px;
     margin: 0 auto;
 }
 
 .dot {
     display: inline-block;
     background-color: transparent;
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
+    margin-right: 15px;
     border-radius: 50px;
     animation: loading 2.5s ease-in-out infinite;
 }
@@ -40,20 +40,20 @@
 
     0%,
     100% {
-        transform: scale(0.22);
-        background-color: #49ff49;
+        transform: scale(0.2);
+        background-color: #49dbff;
     }
 
     25% {
         background-color: #49ff49;
     }
 
-    50% {
+    35% {
         transform: scale(1);
         background-color: #ff00d4;
     }
 
     75% {
-        background-color: #d149ff;
+        background-color: #b049ff;
     }
 }
